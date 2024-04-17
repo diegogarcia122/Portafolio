@@ -1,0 +1,44 @@
+/*.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #F6F5F2;
+}*/
+
+.container {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-right: 5%;
+}
+
+.container h1 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+
+.footer {
+    justify-content: center;
+    padding: 1px;
+    background-color: #FFEFEF;
+    width: 100%;
+    border-radius: 10px;
+}
